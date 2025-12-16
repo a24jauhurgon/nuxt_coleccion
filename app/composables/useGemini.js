@@ -34,7 +34,7 @@ export const useGemini = () => {
 
       // 2. Definimos el prompt para Pokémon
 
-      const prompt = `Proporciona de manera BREVE (màxim 3-4 línies) on i com trobar a ${itemName} en els jocs principals de Pokémon per generació. Sigues concís i directe.`;
+      const prompt = `Proporciona de manera BREU (màxim 3-4 línies) on i com trobar a ${itemName} en els jocs principals de Pokémon per generació. Sigues concís i directe.`;
 
 
 
