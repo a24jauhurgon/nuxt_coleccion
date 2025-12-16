@@ -45,7 +45,7 @@
         </div>
 
         <div class="ai-section">
-          <h3>✨ Informació Extra (IA)</h3>
+          <h3>Informació Extra (IA)</h3>
           
           <button 
             v-if="!aiResponse"
@@ -53,7 +53,7 @@
             :disabled="isGenerating"
             class="ai-button"
           >
-            {{ isGenerating ? 'Pensant...' : '🤖 Com trobar aquest Pokémon?' }}
+            {{ isGenerating ? 'Pensant...' : 'Com trobar aquest Pokémon?' }}
           </button>
 
           <p v-if="aiResponse" class="ai-response">
